@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso da Tecnologia na Educação</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> <!-- Adicionando o arquivo JS -->
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Uso da Tecnologia na Educação</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#positivos" class="smooth-scroll">Pontos Positivos</a></li>
+                <li><a href="#negativos" class="smooth-scroll">Pontos Negativos</a></li>
+                <li><a href="#conclusao" class="smooth-scroll">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Introdução -->
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>A tecnologia tem se tornado uma parte essencial na educação, oferecendo novas maneiras de aprender e ensinar. Neste site, vamos explorar os pontos positivos e negativos do uso da tecnologia nas escolas.</p>
+        </section>
+
+        <!-- Pontos Positivos -->
+        <section id="positivos">
+            <h2>Pontos Positivos</h2>
+            <p>A tecnologia tem transformado a educação de várias maneiras, incluindo:</p>
+            <ul>
+                <li><strong>Interatividade:</strong> Ferramentas como jogos educativos e vídeos interativos tornam o aprendizado mais interessante e envolvente.</li>
+                <li><strong>Acessibilidade:</strong> A tecnologia permite que alunos de diferentes locais e com necessidades especiais tenham acesso a recursos educacionais.</li>
+                <li><strong>Aprendizado Personalizado:</strong> Softwares educativos podem ser ajustados às necessidades de cada aluno, proporcionando uma aprendizagem mais eficiente.</li>
+            </ul>
+            <button onclick="toggleContent('positive')">Leia mais sobre os benefícios</button>
+            <div id="positive" class="more-info" style="display:none;">
+                <p>Além disso, ferramentas como plataformas de ensino a distância e aplicativos de ensino tornam a educação mais flexível e acessível, principalmente em tempos de pandemia.</p>
+            </div>
+            <img src="img/imagem-positiva.jpg" alt="Tecnologia na educação">
+        </section>
+
+        <!-- Pontos Negativos -->
+        <section id="negativos">
+            <h2>Pontos Negativos</h2>
+            <p>Apesar dos benefícios, o uso de tecnologia também apresenta desafios, como:</p>
+            <ul>
+                <li><strong>Desigualdade no Acesso:</strong> Muitos alunos não têm acesso à internet ou a dispositivos tecnológicos, o que pode aumentar a desigualdade educacional.</li>
+                <li><strong>Distrações:</strong> O uso inadequado da tecnologia pode levar a distrações durante o aprendizado, dificultando a concentração dos alunos.</li>
+                <li><strong>Dependência da Tecnologia:</strong> O uso excessivo pode criar uma dependência da tecnologia, prejudicando habilidades cognitivas e sociais importantes.</li>
+            </ul>
+            <button onclick="toggleContent('negative')">Leia mais sobre os desafios</button>
+            <div id="negative" class="more-info" style="display:none;">
+                <p>Em muitos casos, a falta de disciplina e o uso incorreto de ferramentas digitais pode diminuir a produtividade do aluno, tornando a aprendizagem mais fragmentada e superficial.</p>
+            </div>
+            <img src="img/imagem-negativa.png" alt="Desafios da tecnologia na educação">
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+            <p>O uso da tecnologia na educação é um tema complexo, com muitos benefícios, mas também desafios que precisam ser enfrentados. A chave está em equilibrar seu uso para maximizar os ganhos educacionais e minimizar os problemas.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>Desenvolvido por [Seu Nome]. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="welcome-alert"></div> <!-- Para o alerta de boas-vindas -->
+</body>
+
+</html>
